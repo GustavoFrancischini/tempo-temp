@@ -14,6 +14,9 @@
 		752D4FEE2B96157200CBA613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752D4FEC2B96157200CBA613 /* LaunchScreen.storyboard */; };
 		752D4FF62B968C1F00CBA613 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752D4FF52B968C1F00CBA613 /* HourlyForecastCollectionViewCell.swift */; };
 		752D4FF82B9692CB00CBA613 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752D4FF72B9692CB00CBA613 /* Color+Extensions.swift */; };
+		75838BE42B9771DE00A83C37 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75838BE32B9771DE00A83C37 /* DailyForecastTableViewCell.swift */; };
+		75838BE62B9783AB00A83C37 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75838BE52B9783AB00A83C37 /* Service.swift */; };
+		75838BE82B979A8500A83C37 /* Core+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75838BE72B979A8500A83C37 /* Core+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		752D4FEF2B96157200CBA613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752D4FF52B968C1F00CBA613 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
 		752D4FF72B9692CB00CBA613 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		75838BE32B9771DE00A83C37 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		75838BE52B9783AB00A83C37 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		75838BE72B979A8500A83C37 /* Core+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				752D4FE12B96157100CBA613 /* AppDelegate.swift */,
 				752D4FE32B96157100CBA613 /* SceneDelegate.swift */,
 				752D4FE52B96157100CBA613 /* ViewController.swift */,
+				75838BE72B979A8500A83C37 /* Core+Extensions.swift */,
+				75838BE52B9783AB00A83C37 /* Service.swift */,
+				75838BE32B9771DE00A83C37 /* DailyForecastTableViewCell.swift */,
 				752D4FF52B968C1F00CBA613 /* HourlyForecastCollectionViewCell.swift */,
 				752D4FF72B9692CB00CBA613 /* Color+Extensions.swift */,
 				752D4FEA2B96157200CBA613 /* Assets.xcassets */,
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				752D4FF82B9692CB00CBA613 /* Color+Extensions.swift in Sources */,
+				75838BE62B9783AB00A83C37 /* Service.swift in Sources */,
 				752D4FE62B96157100CBA613 /* ViewController.swift in Sources */,
+				75838BE42B9771DE00A83C37 /* DailyForecastTableViewCell.swift in Sources */,
+				75838BE82B979A8500A83C37 /* Core+Extensions.swift in Sources */,
 				752D4FE22B96157100CBA613 /* AppDelegate.swift in Sources */,
 				752D4FF62B968C1F00CBA613 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				752D4FE42B96157100CBA613 /* SceneDelegate.swift in Sources */,
